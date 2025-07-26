@@ -1,0 +1,11 @@
+[package]
+name = "rustedbytes-nocomment"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tree-sitter = "0.25.8"
+tree-sitter-c = "0.24.1"
+tree-sitter-cpp = "0.23.4"
+clap = { version = "4.5.41", features = ["derive"] }
+owo-colors = "4"
