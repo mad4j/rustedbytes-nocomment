@@ -1,7 +1,7 @@
-use std::path::PathBuf;
-use owo_colors::OwoColorize;
-use owo_colors::colors::{Green, BrightBlack};
 use crate::utils::comment_utils::offset_to_linecol;
+use owo_colors::OwoColorize;
+use owo_colors::colors::{BrightBlack, Green};
+use std::path::PathBuf;
 
 /// Stampa il file con i commenti evidenziati in verde e il resto in grigio scuro
 pub fn print_colored(src: &str, comments: &[(usize, usize)]) {
